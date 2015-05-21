@@ -180,7 +180,8 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/libc-bench"
            name="chromiumos/third_party/libc-bench" />
   <project path="src/third_party/linux-firmware"
-           name="chromiumos/third_party/linux-firmware" />
+           name="CI20_chromiumos_linux-firmware"
+           remote="ci20" />
   <project path="src/third_party/marvell"
            name="chromiumos/third_party/marvell" />
   <project path="src/third_party/memtest"
@@ -208,7 +209,8 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/xf86-video-armsoc"
            name="chromiumos/third_party/xf86-video-armsoc" />
   <project path="src/overlays"
-           name="chromiumos/overlays/board-overlays"
+           name="CI20_chromiumos_board-overlays"
+           remote="ci20"
            groups="minilayout,project_sdk" />
   <project path="src/scripts" name="chromiumos/platform/crosutils"
            groups="minilayout,project_sdk,buildtools" />
@@ -264,7 +266,8 @@ Your sources have been sync'd successfully.
            name="chromiumos/overlays/portage-stable"
            groups="minilayout,project_sdk" />
   <project path="src/third_party/chromiumos-overlay" sync-c="true"
-           name="chromiumos/overlays/chromiumos-overlay"
+           name="CI20_chromiumos_chromiumos-overlay"
+           remote="ci20"
            groups="minilayout,project_sdk" />
   <project path="src/third_party/eclass-overlay"
            name="chromiumos/overlays/eclass-overlay"
