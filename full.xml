@@ -181,8 +181,7 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/libc-bench"
            name="chromiumos/third_party/libc-bench" />
   <project path="src/third_party/linux-firmware"
-           name="CI20_chromiumos_linux-firmware"
-           remote="ci20" />
+           name="chromiumos/third_party/linux-firmware" />
   <project path="src/third_party/marvell"
            name="chromiumos/third_party/marvell" />
   <project path="src/third_party/memtest"
